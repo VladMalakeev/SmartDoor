@@ -1,0 +1,118 @@
+body{
+    padding: 15px;
+    background: url("../img/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header{
+    display: flex;
+}
+
+#left{
+    width: 30%;
+    padding: 10px;
+}
+
+#center{
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+}
+
+#right{
+    width: 30%;
+    text-align: right;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-left: 3px solid #3ec2f7;
+    border-right: 3px solid #3ec2f7;
+    border-bottom: 3px solid #3ec2f7;
+    font-family: "Lucida Grande", sans-serif;
+    box-shadow: 0 0 5px black;
+}
+table caption {
+    box-shadow: 0 0 5px black;
+    background: rgba(62, 194, 247, 0.91);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-family: "Roboto Slab",serif;
+    font-style: normal;
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+}
+table td, th {
+    padding: 10px;
+    text-align: center;
+}
+table th {
+    text-align: center;
+    font-size: 18px;
+}
+table tr:nth-child(1n) {
+    background: rgba(255, 255, 255, 0.91);
+}
+table tr:nth-child(2n) {
+    background: rgba(229, 229, 229, 0.9);
+}
+table td:last-of-type {
+    text-align: center;
+}
+table a {
+    display: inline-block;
+    position: relative;
+    margin: 0px 25px;
+    text-decoration: none;
+}
+table h3{
+    margin:0px;
+}
+
+.active{
+    padding: 10px;
+    background: rgba(69, 80, 98, 0.6);
+    border-radius: 10px;
+}
+
+.passive{
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    color: blue;
+}
+.passive:hover{
+    background: #dbdbdb;
+}
+#exit{
+    padding: 4px 4px 0px 5px;
+}
+#exit:hover{
+    background: tomato;
+    border-radius: 50%;
+}
+
+.button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: #63b2ff;
+    box-shadow: 2px 2px #2f4cf3;
+    border: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+}
+
+.button:hover{
+    top: 2px;
+    left: 2px;
+    box-shadow: none;
+
+}
